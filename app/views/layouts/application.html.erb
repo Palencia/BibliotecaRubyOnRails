@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biblioteca</title>
+  <FONT SIZE=6 color="FF0000"><b>Biblioteca Luis Palencia</b></FONT>
+  <br>
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body color="background-color:powderblue;">
+  <div>
+     <%= yield %>
+  </div>
+
+
+</body>
+</html>
